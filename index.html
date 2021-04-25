@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <div class="lead">
+        <select class="input-small person">
+            <option data-i18n='Meera' value="female">Meera</option>
+            <option data-i18n='Harry' value="male">Harry</option>
+        </select>
+        <span data-i18n="has"></span> <input class="input-mini kittens" value=1 size="3" type="number"> <span
+            data-i18n="kitten(s). He/She loves to play with it/them."></span>
+    </div>
+
+    <div class="lead">
+        <span data-i18n="Display the above sentence in"></span>
+        <select class="language span3">
+            <option value="fr" data-i18n="French"></option>
+            <option value="en" data-i18n="English"></option>
+            <option value="de" data-i18n="Deutsh"></option>
+        </select>
+    </div>
+    <div class="result lead alert alert-success">
+        <!-- The message will be filled here automatically. -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <!-- #region Jquery.I18n Script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.7/jquery.i18n.min.js"
+        integrity="sha512-a0tGMh5o0nCoRDiMVaSmiWgB9s/JqfC+PQZHWANTzIhasvm5eH9NkWTmJ4WloaQWLT8fEzRBjvADgFNDf0WusQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cldrpluralruleparser@1.3.2/src/CLDRPluralRuleParser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.7/jquery.i18n.emitter.min.js"
+        integrity="sha512-Yw0lHnAEswccgVMDJm0wNcn6VoLj6g/xAerqevklCx+D1eBBJZDvs6N7vzmlgmpT9SrZ/QsWDjWVOV8d5InotA=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.7/jquery.i18n.fallbacks.min.js"
+        integrity="sha512-pN1NvaFGaA7yZtCG3scw7V3/coyQ5yoPree1XjRU3AH4U09l7yv/UCwz2xenxTJR4CI4vm+VD4d1vE1qpEgntg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.7/jquery.i18n.language.min.js"
+        integrity="sha512-J96wSOfD3IQIzCnzDFXdXJViIbu6FROoFIn92ai/gGjSBAKDCa6zhfN0XZBY/yeybt2OntBm44hIAR78x9HBBQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.7/jquery.i18n.messagestore.min.js"
+        integrity="sha512-/hv/2tE0W63ywFkKYwtnbYdBwlS+tjEw/TWvGD31awT1bbEliLB0G0akHicAUJVLPSCE6LVEnfdJy0lPkrauvg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.7/jquery.i18n.parser.min.js"
+        integrity="sha512-7SqTAqYSZQLut/vsxY2AFpb+kHhx97D6aBE/mxasqUzdoFqdBunJexJX+I51Uj1j2o9yD9JtNyMZ1PXDMnJMoQ=="
+        crossorigin="anonymous"></script>
+    <!-- #endregion Jquery.I18n Script-->
+    <script src="main.js"></script>
+</body>
+
+</html>

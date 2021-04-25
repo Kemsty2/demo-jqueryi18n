@@ -1,0 +1,9 @@
+{
+    "Display the above sentence in": "Zeigen Sie den obigen Satz in",
+    "has": "hat",
+    "kitten(s). He/She loves to play with it/them.": "Kätzchen(s). Er/Sie liebt es, mit ihm/ihr zu spielen.",
+    "French": "Französisch",
+    "English": "Englisch",
+    "Deutsh": "Deutsh",
+    "$1 has $2 {{plural:$2|kitten|kittens}}. {{gender:$3|He|She}} loves to play with {{plural:$2|it|them}}.": "$1 hat {{plural:$2|eine Katze|$2 Katzen}}. {{gender:$3|Er|Sie}} spielt sehr gerne mit {{plural:$2|ihr|ihnen}}."
+}

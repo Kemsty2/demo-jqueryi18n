@@ -1,0 +1,11 @@
+{
+    "one": "ONE",
+    "two": "TWO",
+    "has": "has",
+    "Display the above sentence in": "Display the above sentence in",
+    "kitten(s). He/She loves to play with it/them.": "kitten(s). He/She loves to play with it/them.",
+    "French": "French",
+    "English": "English",
+    "Deutsh": "Deutsh",
+    "$1 has $2 {{plural:$2|kitten|kittens}}. {{gender:$3|He|She}} loves to play with {{plural:$2|it|them}}.": "$1 has $2 {{plural:$2|kitten|kittens}}. {{gender:$3|He|She}} loves to play with {{plural:$2|it|them}}."
+}
